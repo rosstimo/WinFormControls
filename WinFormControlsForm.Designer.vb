@@ -45,6 +45,7 @@ Partial Class WinFormControlsForm
         'ExamplePictureBox
         '
         Me.ExamplePictureBox.BackColor = System.Drawing.SystemColors.Control
+        Me.ExamplePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ExamplePictureBox.Cursor = System.Windows.Forms.Cursors.Cross
         Me.ExamplePictureBox.Location = New System.Drawing.Point(604, 75)
         Me.ExamplePictureBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)

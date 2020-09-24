@@ -6,6 +6,7 @@
     End Sub
 
     Private Sub GoButton_Click(sender As Object, e As EventArgs) Handles GoButton.Click
+        ' ExamplePictureBox       
 
         ExamplePictureBox.BackgroundImage = My.Resources.kitty12
         ExamplePictureBox.BackgroundImageLayout = ImageLayout.Zoom
